@@ -1,0 +1,32 @@
+.navbar{
+    background-color: var(--Primary-extra-light);
+}
+.nav-link{
+    color:var(--Primary)!important;
+}
+
+.nav-link.active{
+    color: var(--Secondary-dark) !important;
+    font-weight: bold; 
+    border-bottom:2px solid var(--Secondary-dark);
+}
+
+
+.hero{
+    height: 70vh;
+    background: var(--Primary-gradient);
+    display: flex;
+    align-items: center;
+}
+.heroImg{
+    width:100%;
+    padding: 34px 40px;
+}
+
+.footer{
+    background-color: lightgrey;
+    text-align:center;
+    padding:40px;
+    margin-top: 60px
+
+}
